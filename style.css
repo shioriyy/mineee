@@ -1,0 +1,470 @@
+*, html, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.dark {
+    background-color: #03002e;
+}
+
+.mode {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: auto;
+    height: auto;
+    z-index: 9999;
+}
+
+.con-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    gap: 2rem;
+}
+
+.ig, .discord {
+    width: 100px;
+    height: 100px;
+}
+
+.ig {
+    transform: translateX(500%);
+}
+
+.container{
+    width: 100%;
+   height: 100vh;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transform: translate(13%, -30%);
+font-size: 30px;
+}
+
+.container2 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    transform: translate(20%, 5%);
+    gap: 2rem;
+    font-size: 30px;
+}
+
+.violet {
+    height: 200px;
+    width: 200px;
+
+        animation-name: down;
+    animation-duration: 1s;
+}
+
+.violet2 {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-15%);
+   
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 217, 117);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+         animation-name: up;
+    animation-duration: 1s;
+
+}
+
+.main2 {
+    
+    width: 80px;
+    height: 50px;
+    display: flex;
+    transform: translateX(-750%);
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 217, 117);
+    text-decoration: none;
+    border-radius: 10px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+
+}
+
+.main:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;     
+     
+}
+
+.main2:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;                                     
+}
+
+
+.about {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 217, 117);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+         animation-name: up;
+    animation-duration: 1s;
+
+}
+
+.about2 {
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    transform: translateX(-200%);
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 217, 117);
+    border-radius: 10px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+
+}
+
+
+.about:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;                                     
+}
+
+.about2:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;                                     
+}
+
+
+.contact {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(228, 217, 117);
+    width: 155px;
+    height: 50px;
+    border-radius: 10px;
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+         animation-name: up;
+    animation-duration: 1s;
+
+}
+
+.contact2 {
+      display: flex;
+      text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(228, 217, 117);
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+
+}
+
+
+.contact:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;                                     
+}
+
+.contact2:hover {
+    border-radius: 10px;
+     background-color: skyblue;
+     transition: .3s ease-in-out;
+     transition-delay: .1s;                                     
+}
+
+.teks {
+    max-width: 80%;
+    transform: translate(15%,-70%);
+    color: rgb(228, 217, 117);
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+.p1 {
+        max-width: 100%;               
+  white-space: nowrap;         
+  overflow: hidden;            
+  animation:
+    typing 6s steps(100),
+    blink 0.7s step-end  8;
+
+}
+
+.p2 {
+      display: inline-block;   
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+
+    transform: translateY(-95%);
+      animation:
+    typing2 6s steps(100) 6s forwards,
+    blink2 0.7s step-end 6s 8;
+
+}
+
+.p3 {
+  display: inline-block;   
+  transform: translateY(-190%);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation:
+    typing3 6s steps(100) 12s forwards,
+    blink3 0.7s step-end 12s 8;
+}
+
+.p4 {
+  display: inline-block;   
+  transform: translateY(-285%);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation:
+    typing4 6s steps(100) 18s forwards,
+    blink4 0.7s step-end 18s 8;
+}
+
+.p5 {
+  display: inline-block;   
+  transform: translateY(-380%);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation:
+    typing5 6s steps(100) 24s forwards,
+    blink5 0.7s step-end 24s 8;
+}
+
+.p6 {
+  display: inline-block;   
+  transform: translateY(-475%);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation:
+    typing6 6s steps(100) 30s forwards,
+    blink6 0.7s step-end 30s 8;
+}
+
+.p7 {
+  display: inline-block;   
+  transform: translateY(-570%);
+  width:0;                
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation:
+    typing7 6s steps(100) 36s forwards,
+    blink7 0.7s step-end 36s 8;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink  {
+    50% {
+        border-color: rgb(228, 217, 117);
+    }
+}
+
+@keyframes typing2 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink2 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing3 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink3 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing4 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink4 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing5 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink5 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing6 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blink6 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+@keyframes typing7 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes blink7 {
+    50%{
+        border-color: bisque;
+    }
+}
+
+
+@keyframes down {
+    0% {
+        transform: translateY(-15px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes up {
+    0% {
+        transform: translateY(7%);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
